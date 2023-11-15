@@ -65,7 +65,9 @@ public abstract class AbstractSimpleThreadGroup extends AbstractThreadGroup {
         for (int i = 0; running && i < numThreads; i++) {
             JMeterThread jmThread = makeThread(groupNum, notifier, threadGroupTree, engine, i, context);
             scheduleThread(jmThread, now); // set start and end time
-            Thread newThread = new Thread(jmThread, jmThread.getThreadName());
+//            Thread newThread = new Thread(jmThread, jmThread.getThreadName());
+            Thread newThread = Thread.ofVirtual().name(jmThread.getThreadName()).unstarted(jmThread);
+
             registerStartedThread(jmThread, newThread);
             newThread.start();
         }

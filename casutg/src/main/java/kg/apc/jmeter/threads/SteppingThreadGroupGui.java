@@ -197,7 +197,7 @@ public class SteppingThreadGroupGui
 
     @Override
     public String getStaticLabel() {
-        return JMeterPluginsUtils.prefixLabel("Loom Stepping Thread Group");
+        return JMeterPluginsUtils.prefixLabel("Pedro Loom Stepping Thread Group");
     }
 
     @Override

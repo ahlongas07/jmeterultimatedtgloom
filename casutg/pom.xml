@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kg.apc</groupId>
-    <artifactId>jmeter-loom-thread-group</artifactId>
-    <version>1.0</version>
+    <artifactId>jmeter-pedroloom-thread-group</artifactId>
+    <version>2.0</version>
 
     <name>Loom Custom Thread Groups</name>
     <description>Custom Thread Groups implements a Loom model thread groups</description>
@@ -33,7 +33,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
         <skipTests>true</skipTests>
     </properties>
 
@@ -48,6 +47,14 @@
                     <serverId>sonatype-nexus-staging</serverId>
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>19</source>
+                    <target>19</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -65,5 +72,11 @@
             <version>0.2</version>
             <scope>test</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.jmeter</groupId>-->
+<!--            <artifactId>ApacheJMeter_core</artifactId>-->
+<!--            <version>5.6.2</version>-->
+<!--        </dependency>-->
+
     </dependencies>
 </project>

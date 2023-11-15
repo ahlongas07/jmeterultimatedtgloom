@@ -101,7 +101,7 @@ public class UltimateThreadGroupGui
 
     @Override
     public String getStaticLabel() {
-        return JMeterPluginsUtils.prefixLabel("Loom Ultimate Thread Group");
+        return JMeterPluginsUtils.prefixLabel("Pedro Loom Ultimate Thread Group");
     }
 
     @Override

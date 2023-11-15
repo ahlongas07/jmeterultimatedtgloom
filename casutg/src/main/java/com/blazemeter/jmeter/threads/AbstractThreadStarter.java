@@ -94,7 +94,8 @@ public abstract class AbstractThreadStarter extends Thread {
     protected DynamicThread addActiveThread() {
         DynamicThread threadWorker = makeThread(threadIndex++);
         owner.addThread(threadWorker);
-        Thread thread = new Thread(threadWorker, threadWorker.getThreadName());
+//        Thread thread = new Thread(threadWorker, threadWorker.getThreadName());
+        Thread thread = Thread.ofVirtual().name(threadWorker.getThreadName()).unstarted(threadWorker);
         threadWorker.setOSThread(thread);
         thread.setDaemon(false); // we can't have it daemon, since it will stay and eat RAM in UI mode
         thread.start();
