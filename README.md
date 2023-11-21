@@ -70,4 +70,4 @@ If you don't want compile the extension, just download it from [Resources Page](
 ![Alt Text](resources/v2.png)
 ![Alt Text](resources/v3.png)
 
-Special thanks to [Pedro Jara] (https://github.com/pedrojara2405) for the guide and the support.
+### Special thanks to [Pedro Jara] (https://github.com/pedrojara2405) for the guide and the support. ###
