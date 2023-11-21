@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kg.apc</groupId>
-    <artifactId>jmeter-pedroloom-thread-group</artifactId>
-    <version>2.0</version>
+    <artifactId>jmeter-virtual-thread-group-loom-project</artifactId>
+    <version>1.0</version>
 
     <name>Loom Custom Thread Groups</name>
     <description>Custom Thread Groups implements a Loom model thread groups</description>
@@ -19,15 +19,15 @@
     </licenses>
     <url>http://jmeter-plugins.org/</url>
     <scm>
-        <url>https://github.com/undera/jmeter-plugins</url>
-        <connection>https://github.com/undera/jmeter-plugins.git</connection>
-        <developerConnection>git@github.com:undera/jmeter-plugins.git</developerConnection>
+        <url>-</url>
+        <connection>-</connection>
+        <developerConnection>-</developerConnection>
     </scm>
     <developers>
         <developer>
-            <id>team</id>
-            <name>jmeter-plugins.org</name>
-            <email>jmeter-plugins@googlegroups.com</email>
+            <id>-</id>
+            <name>j-</name>
+            <email>-</email>
         </developer>
     </developers>
 
@@ -53,8 +53,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>19</source>
-                    <target>19</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -72,11 +72,5 @@
             <version>0.2</version>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.apache.jmeter</groupId>-->
-<!--            <artifactId>ApacheJMeter_core</artifactId>-->
-<!--            <version>5.6.2</version>-->
-<!--        </dependency>-->
-
     </dependencies>
 </project>
