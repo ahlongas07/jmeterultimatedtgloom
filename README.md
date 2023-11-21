@@ -39,5 +39,5 @@ This step is optional to use this JMeter plugin, follow these steps:
 
 4. After a successful build, you will find the compiled JAR file in the `target/` directory.
 
-5. Copy the generated JAR file: `jmeter-virtual-thread-group-loom-project-1.0` from the `target/` to the JMeter `lib/ext/` directory and copy `jmeter-plugins-cmn-jmeter-0.7.jar` from `resources` directory.
+5. Copy the generated JAR file: `jmeter-virtual-thread-group-loom-project-1.0` from the `target/` to the JMeter `lib/ext/` directory and copy `jmeter-plugins-cmn-jmeter-0.7.jar` from from [Resources Page](https://github.com/ahlongas07/jmeterultimatedtgloom/tree/master/resources).
 
