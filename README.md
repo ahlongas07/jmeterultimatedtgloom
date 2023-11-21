@@ -41,10 +41,33 @@ This step is optional to use this JMeter plugin, follow these steps:
 
 5. Copy the generated JAR file: `jmeter-virtual-thread-group-loom-project-1.0` from the `target/` to the JMeter `lib/ext/` directory and copy `jmeter-plugins-cmn-jmeter-0.7.jar` from [Resources Page](https://github.com/ahlongas07/jmeterultimatedtgloom/tree/master/resources).
 
-## Using the Plugin in JMeter
+## Starting the Plugin in JMeter
 
 If you don't want compile the extension, just download it from [Resources Page](https://github.com/ahlongas07/jmeterultimatedtgloom/tree/master/resources).
 
-1. Download the JARS's from the [Resources Page](https://github.com/ahlongas07/jmeterultimatedtgloom/tree/master/resources) , copy `jmeter-virtual-thread-group-loom-project-1.0` to `lib/ext/` and copy `jmeter-plugins-cmn-jmeter-0.7.jar` to `lib/`
+1. Copy `jmeter-virtual-thread-group-loom-project-1.0` to `lib/ext/` and copy `jmeter-plugins-cmn-jmeter-0.7.jar` to `lib/`
 
 2. If you are having problems, download my JMeter version from [Resources Page](https://github.com/ahlongas07/jmeterultimatedtgloom/tree/master/resources)
+
+## Using the Plugin in JMeter
+
+1. Give the enough permission to the jmeter file in `bin/` directory.
+
+   ```shell
+   sudo chmod +x jmeter
+   ```
+
+2. Start Jmeter
+
+   ```shell
+   sudo ./jmeter   
+   ```
+
+
+3. Now you can use the plugin in your JMeter test plans by adding the elements to your test plan.
+
+![Alt Text](resources/v1.png)
+![Alt Text](resources/v2.png)
+![Alt Text](resources/v3.png)
+
+
